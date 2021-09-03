@@ -42,4 +42,6 @@ group :development, :test do
   # Spring speeds up develohp ment by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
+group :production do
+  gem 'pg', '0.17.1'
+end
